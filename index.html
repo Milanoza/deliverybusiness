@@ -6,8 +6,89 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./node_modules/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    
+    <header class="header-container">
+        <nav class="navbar navbar-expand-lg  page-color-1">
+            <div class="container-fluid">
+                <div class="logo-container d-flex align-items-center">
+                    <figure>
+                        <img src="./assets/logo.png" alt="Logo" class="nav-logo">
+                    </figure>
+                    <span>
+                        <a href="#" class="text-decoration-none logo-text fs-2 text-color">
+                            Delivery Buisness
+                        </a>
+                    </span>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
+                    
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Price</a>
+                      </li>
+                    </ul>
+                    <div class="btn-container">
+                        <a href="javascript:void;" class="collapse navbar-collapse btn rounded-pill btn-outline-primary nav-btn">Start</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="heroSection">
+            <div class="container page-color-1">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-3 d-none d-xl-block">
+                            <div class="container image-wrapper1">
+                                <figure>
+                                    <img src="./assets/image1.jpg" alt="Image1" class="hero-image">
+                                </figure>
+                                <figure>
+                                    <img src="./assets/image3.jpg" alt="Image2" class="hero-image hero2">
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="col-6 text-center">
+                            <h1 class="fw-bold display-1 mb-5">Delivery<br>
+                                Business
+                            </h1>
+                            <p class="mb-5">Possimus praesentium provident quas quis tempore. Lorem ipsum dolor sit amet
+                                Consequuntur corporis cum cumque in quam.</p>
+                            <div class="btn-container">
+                                <a href="javascript:void;" class="btn rounded-pill btn-outline-primary hero-btn">Start</a>
+                            </div>
+                        </div>
+                        <div class="col-3 d-none d-xl-block">
+                            <div class="container image-wrapper1">
+                                <figure>
+                                    <img src="./assets/image10.jpg" alt="Image1" class="hero-image hero3">
+                                </figure>
+                                <figure>
+                                    <img src="./assets/image7.jpg" alt="Image2" class="hero-image hero4">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </section>
+    </main>
 </body>
 </html>

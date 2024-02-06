@@ -1,5 +1,21 @@
 *{
     margin:0;
     padding: 0;
-    
+}
+.page-color-1{
+    background-color: #d4fe00;
+}
+.text-color{
+    color:#08323C;
+}
+figure{
+    margin:0 !important;
+}
+
+#heroSection{
+    background-color: #d4fe00;
+}
+
+img{
+    object-fit: cover;
 }

@@ -1,0 +1,43 @@
+/* navbar css */
+.logo-container{
+    width:120px;
+}
+.logo-container span{
+    line-height: 22px;
+}
+.nav-logo{
+    height: auto;
+    width: 55px;
+}
+.nav-btn{
+    padding: 20px 55px !important;
+    color:#08323C !important;
+    border-color: #08323C !important;
+}
+.btn-container a:hover{
+    color:white !important;
+    background-color: #08323C !important;
+}
+
+/* herosection */
+
+.image-wrapper1{
+    position:relative;
+    /* height: 500px; */
+}
+.hero-image{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 180px;
+    width: 180px;
+    border-radius:16px;
+}
+.hero2{top:300px;}
+.hero3{ top:50px;}
+.hero4{top:300px;}
+.hero-btn{
+    padding: 20px 55px !important;
+    color: white !important;;
+    background: #08323c !important;;
+}
