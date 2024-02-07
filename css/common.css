@@ -5,11 +5,20 @@
 .page-color-1{
     background-color: #d4fe00;
 }
-.text-color{
+.text-color1{
+    color:#d4fe00;
+}
+.text-color2{
     color:#08323C;
 }
 figure{
     margin:0 !important;
+}
+.container-padding{
+    padding:40px 0px;
+}
+.container-padding1{
+    padding: 100px 0px;
 }
 
 #heroSection{
@@ -18,4 +27,8 @@ figure{
 
 img{
     object-fit: cover;
+}
+
+#aboutusSection1 , #aboutusSection3{
+    background-color: #08323C;
 }
